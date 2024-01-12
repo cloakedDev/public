@@ -1,0 +1,22 @@
+name: weather_repository
+description: repository to grab weather info
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  geolocator: ^10.1.0
+  weather_ui:
+    path: ../weather_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.1
+
+
